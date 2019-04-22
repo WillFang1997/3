@@ -1,0 +1,144 @@
+/* --------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'opensansB';
+    src: url('../../fonts/opensansB/OPENSANS-BOLD.ttf'),
+            url('../../fonts/opensansB/OPENSANS-BOLD.woff2') format('woff2'),
+            url('../../fonts/opensansB/OPENSANS-BOLD.woff') format('woff'),
+            url('../../fonts/opensansB/OPENSANS-BOLD.ttf')  format('truetype');
+}
+
+
+.banner-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background-size:100% 100%;
+}
+
+.banner-box .swiper-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-box .swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    -webkit-transition: all 0.4s ease 1.2s;
+    -moz-transition: all 0.4s ease 1.2s;
+    -ms-transition: all 0.4s ease 1.2s;
+    -o-transition: all 0.4s ease 1.2s;
+    transition: all 0.4s ease 1.2s;
+}
+
+.banner-box .swiper-slide-active img {
+    transition-delay: 0.4s !important;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    transition: all 5s ease;
+}
+
+
+.banner-text {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 33;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 60px;
+    font-family: 'opensansB';
+    color: #fff;
+    text-transform: uppercase;
+}
+/* ---parameter--- */
+.parameter-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.parameter {
+    width: 100%;
+    overflow: hidden;
+}
+.parameter div{
+	float:left
+}
+.parameter-ul{
+	font-size:0.3rem;
+	font-family: 'opensansB';
+	width:15%;
+	margin-top:10%;
+}.parameter-ul li{
+	margin-top:20%;
+     margin-left: 25%;
+}
+.parameter-ul h2{
+	font-size:0.3rem;
+	font-family: 'opensansB';
+	overflow: hidden;
+}
+.parameter-ul p{
+	font-size:0.2rem;
+	overflow: hidden;
+}
+
+.parameter-image{
+	width:40%;
+    margin-left: 10%;
+}
+.parameter-image img{
+	width:100%;
+}
+.parameter-ul-phone{
+	display:none;
+}
+/* ---parameter-phone--- */
+@media all and (max-width:1000px){/*phone*/
+.parameter-ul-phone{
+	display:block;
+}
+.parameter-ul{
+	display:none;
+}
+.parameter ul{
+	float:left
+}
+.parameter-ul-phone{
+	font-size:0.3rem;
+	font-family: 'opensansB';
+	width:100%;
+}.parameter-ul-phone li{
+     width:100%;
+}
+.parameter-ul-phone h2{
+	font-size:0.8rem;
+	font-family: 'opensansB';
+	overflow: hidden;
+}
+.parameter-ul-phone p{
+	font-size:0.6rem;
+	overflow: hidden;
+}
+
+.parameter-image{
+	width:80%;
+	margin-left:10%;
+}
+.parameter-image img{
+	width:100%;
+}
+}
+

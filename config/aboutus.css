@@ -1,0 +1,397 @@
+
+/* -----------------------------------banner-box------------------------------------------ */
+.banner-box{
+    width: 100%;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* --------------------------------------textTop-nav--------------------------------------- */
+.textTop-nav{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.textTop-nav a{
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 0 20px;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #a7a7a7;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+.textTop-nav a:hover{
+    color: #273c92;
+    border-bottom: 1px solid #273c92;
+}
+.textTop-nav-active{
+    color: #273c92 !important;
+    border-bottom: 2px solid #273c92 !important;
+    pointer-events:none;
+    font-size:1.5rem;
+}
+
+
+
+
+/* ------------------------------------service-box----------------------------------------- */
+.service-box{
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0 10px 0;
+}
+.service-matter{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* ----------------------------------service-fad------------------------------------------- */
+.service-fad{
+    width: 100%;
+    overflow: hidden;
+}
+.service-fad ul{
+    width: 100%;
+    overflow: hidden;
+}
+.service-fad ul li{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.service-fad-question{
+    width: 100%;
+    overflow: hidden;
+    padding: 18px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    cursor: pointer;
+}
+.service-fad-question :hover span{
+	border: 1px solid #273c92 !important;
+    background-color: #273c92 !important;
+    color: #fff !important;
+}
+.service-fad-question-tech{
+	cursor: default;
+}
+.link{
+	cursor: pointer;
+}
+.service-fad-question-tech:hover span{
+	border: 1px solid #273c92 !important;
+    background-color: #273c92 !important;
+    color: #fff !important;
+}
+.service-fad-question h5{
+    float: left;
+    overflow: hidden;
+}
+.service-fad-question h5 span{
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #b0b0b0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    color: #b0b0b0;
+    float: left;
+}
+.service-fad-question-Span{
+    border: 1px solid #273c92 !important;
+    background-color: #273c92 !important;
+    color: #fff !important;
+}
+
+.service-fad-question h5 p{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    width: 800px;
+    margin-left: 54px;
+}
+
+
+.service-fad-question h6{
+    width: 36px;
+    height: 36px;
+    float: right;
+    text-align: center;
+}
+.service-fad-question h6 i{
+    width: 13px;
+    height: 8px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url('../images/index/service_up.png');
+    margin-top: 14px;
+}
+.service-fad-question-Ci{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    background-image: url('../images/index/service_upH.png') !important;
+}
+
+
+.service-fad ul li b{
+    position: absolute;
+    left: 60px;
+    top: 72px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 10px;
+    z-index: 30;
+    background-image: url('../images/index/service_lineUp.jpg');
+    opacity: 0;
+}
+.service-fad-nb{
+    opacity: 1 !important;
+}
+
+.service-fad-answer{
+    width: 100%;
+    overflow: hidden;
+    padding: 24px 0 28px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.service-fad-answerL{
+    width: 4%;
+    overflow: hidden;
+    float: left;
+}
+.service-fad-answerL span{
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #273c92;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    color: #273c92;
+    float: left;
+}
+.service-fad-answerR{
+    width: 95.6%;
+    overflow: hidden;
+    float: right;
+}
+.service-fad-answerR p{
+    font-size: 20px;
+    color: #000;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+
+
+
+/* -----------------------------------service-download------------------------------------------ */
+.service-download{
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-download-list{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 18px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.service-download-list ul{
+    width: 100%;
+    overflow: hidden;
+}
+.service-download-list ul li{
+    float: left;
+    overflow: hidden;
+}
+.service-download-list ul li:nth-child(1){
+    width: 60%;
+}
+.service-download-list ul li:nth-child(2){
+    width: 20%;
+    text-align: center;
+}
+.service-download-list ul li:nth-child(3){
+    width: 20%;
+}
+.service-download-list ul li p{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.service-download-list ul:hover li p{
+    color: #273c92;
+}
+.service-download-list ul li span{
+    font-size: 14px;
+    color: #666;
+    line-height: 36px;
+}
+.service-download-list ul:hover li span{
+    color: #273c92;
+}
+.service-download-list ul li h6{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    float: right;
+    border: 1px solid #fff;
+}
+.service-download-list ul:hover li h6{
+    border: 1px solid #273c92;
+}
+.service-download-list ul li h6 i{
+    width: 14px;
+    height: 23px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-top: 6.5px;
+    background-image: url('../images/index/service_down.png');
+}
+.service-download-list ul:hover li h6 i{
+    background-image: url('../images/index/service_downH.png');
+}
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+@media all and (max-width:1300px) {
+    .service-matter {
+        width: 92%;
+        margin-left: 4%;
+    }
+}
+
+@media all and (max-width:1280px) {}
+
+@media all and (max-width:1200px) {
+    .service-fad-question h5 p {
+        width: 600px;
+    }
+}
+
+
+/* ------------------------鎵嬫満绔�------------------------- */
+
+@media all and (max-width:1000px) {
+    .textTop-nav {
+        padding: 12px 0;
+    }
+    .textTop-nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .service-fad-question h5 p {
+        font-size: 12px;
+        line-height: 18px;
+        white-space: unset;
+        width: 210px;
+        margin-left: 44px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .service-fad ul li b {
+        left: 42px;
+    }
+    .service-fad-answerL {
+        width: 16%;
+    }
+    .service-fad-answerR {
+        width: 84%;
+    }
+    .service-fad-answerR p {
+        font-size: 14px;
+        text-align: unset;
+        text-justify: unset;
+        line-height: 22px;
+    }
+    .service-box {
+        padding: 14px 0 10px 0;
+    }
+
+    /* 涓嬭浇 */
+    .service-download-list ul li:nth-child(1) {
+        width: 100%;
+    }
+    .service-download-list ul li:nth-child(2) {
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .service-download-list ul li:nth-child(3) {
+        width: 50%;
+        float: right;
+    }
+    .service-download-list ul li p {
+        font-size: 14px;
+    }
+    
+
+
+
+}
+
+
+@media(min-width: 360px) and (max-width:400px) {
+    .service-fad-question h5 p {
+        width: 244px;
+    }
+}
+
+@media(min-width: 400px) and (max-width:500px) {
+    .service-fad-question h5 p {
+        width: 280px;
+    }
+}
+
+
+
+
+
+
+
